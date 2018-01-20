@@ -1,0 +1,7 @@
+form(action='/upload', method='post', accept-charset='utf-8', enctype='multipart/form-data')
+    //
+      Your form *MUST* have the 'enctype="multipart/form-data"' if you
+      are uploading a file
+    | Select a file:
+    input(type='file', name='image')
+    button(type='submit') Upload
